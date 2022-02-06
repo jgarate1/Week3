@@ -32,14 +32,14 @@ const changeStatus = (id) => {
 <div class="min-h-screen bg-gray-800">
   <div class="container mx-auto flex flex-col space-y-8 pt-8">  
     <h1 class="pb-4 font-thin text-center text-6xl tracking-tight text-gray-300">
-      🚀 My Todo App
+      🚀Justus Todo App🚀
     </h1>
     <input
         @change="addTodo"
         v-model="newTodo"
         type="text"
         class="px-4 py-2 text-xl text-center rounded-lg"
-        placeholder="New Todo"
+        placeholder="Type Here"
       />
     <div class="flex justify-around">
       <div class="w-1/3">
